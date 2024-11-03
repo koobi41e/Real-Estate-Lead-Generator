@@ -1,0 +1,30 @@
+{
+  "name": "re-lead-gen",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node invokeLambda.js",
+    "dev": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^126.0.0",
+    "aws-sdk": "^2.1659.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.45.1",
+    "playwright-core": "^1.45.2",
+    "puppeteer": "^22.13.1",
+    "qs": "^6.12.3"
+  }
+}
